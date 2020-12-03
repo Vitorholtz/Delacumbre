@@ -299,9 +299,36 @@ footer {
 
     height: 30vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   
 }
+
+
+
+.social-icons {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+ }
+
+
+ .social-icons i {
+
+    font-size: 1.5rem;
+    color: rgb(133, 133, 133);
+    padding: .8rem 2rem;
+    opacity: .5;
+    transition: color .5s;
+ }
+
+ .social-icons i:hover, .social-icons i:focus {
+     color: white;
+ }
 
 @media (max-width: 1200px) {
 
