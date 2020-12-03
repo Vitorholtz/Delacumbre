@@ -2,6 +2,7 @@ body {
 
     box-sizing: border-box;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -48,11 +49,19 @@ header {
     display: flex;
     justify-content: space-between;
     font-family:Zilla Slab;
+    padding:0;
 
 }
 
+
 .saia {
     width: 100vw;
+}
+
+.saia2{
+
+    width: 100%;
+    transform: translateY(1em);
 }
 
 .container {
@@ -190,7 +199,6 @@ section{
     display: flex;
     justify-content: center;
     margin: 10em auto 10em auto;
-    border: 1px red solid;
     
 }
 
@@ -222,9 +230,24 @@ section{
 
 .livro {
     display: flex;
+    width: 70%;
     flex-direction: column;
+    justify-content: center;
     margin: 10em auto;
-    border: 1px red solid;
+    position: relative;
+
+
+}
+
+.livro::before {
+
+    content: '';
+    height: 100%;
+    width: 2px;
+    background-color: rgb(190, 190, 190);
+    position: absolute;
+    left: -2em;
+    
 
 }
 
@@ -239,16 +262,45 @@ section{
 
     width: 100%;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 .livro p {
 
     font-size: 1.5em;
+    width: auto;
     line-height: 1.5em;
     font-family:Zilla Slab;
-    text-align: left;
+    
 
+}
+
+button{
+
+  background-color: #3f3f3f;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 1em 3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  font-family: sans-serif;
+  cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: gray;
+}
+
+footer {
+
+    height: 30vh;
+    background-color: black;
+
+  
 }
 
 @media (max-width: 1200px) {
@@ -297,8 +349,6 @@ section{
 
     }
 
-
-
     .img-1 {
 
         min-height: 25rem;
@@ -310,8 +360,6 @@ section{
         min-height: 25rem;
 
     }
-
-
 
 }
 
@@ -326,7 +374,11 @@ section{
 
         flex-direction: column;
         text-align: center;
-        transform: translateX(-20px);
+        font-size: 1.3em;
+    }
+    .description ul li {
+
+        margin-top: 1em;
     }
 
     main {
