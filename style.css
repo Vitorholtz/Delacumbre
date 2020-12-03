@@ -1,3 +1,4 @@
+
 body {
 
     box-sizing: border-box;
@@ -217,7 +218,7 @@ section{
 
 .texto h1, .livro h1 {
 
-    font-size: 3em;
+    font-size: 5em;
     font-family: Bebas kai;
 }
 
@@ -327,6 +328,42 @@ footer {
 
  .social-icons i:hover, .social-icons i:focus {
      color: white;
+ }
+
+ .mancha1{
+
+    width: 15em; 
+    position: absolute;
+    top: 110em;
+    right: 0;
+
+ }
+
+ .mancha2{
+
+    width: 15em; 
+    position: absolute;
+    top: 70em;
+    left: -5em;
+
+ }
+
+ .mancha3{
+
+    width: 15em; 
+    position: absolute;
+    top: 170em;
+    left: -5em;
+
+ }
+
+ .mancha4{
+
+    width: 15em; 
+    position: absolute;
+    top: 230em;
+    left: 50%;
+
  }
 
 @media (max-width: 1200px) {
