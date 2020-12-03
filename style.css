@@ -341,10 +341,11 @@ footer {
 
  .mancha2{
 
-    width: 15em; 
+    width: 25em; 
     position: absolute;
     top: 70em;
     left: -5em;
+    z-index: -1;
 
  }
 
@@ -363,6 +364,15 @@ footer {
     position: absolute;
     top: 230em;
     left: 50%;
+
+ }
+
+ .mancha5{
+
+    width: 15em; 
+    position: absolute;
+    top: 300em;
+    right: 17em;
 
  }
 
