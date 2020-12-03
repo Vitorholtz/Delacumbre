@@ -1,0 +1,128 @@
+body {
+
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+
+    height: 100vh;
+    background-image: url(imagens/bgheader.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.logodesc {
+
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.logo {
+
+    align-self: center;
+
+}
+
+.description {
+
+    display: flex;
+    justify-content: center;
+}
+
+.description ul {
+
+    width: 25em;
+    font-size: 1.5em;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family:Zilla Slab;
+
+}
+
+.saia {
+    width: 100vw;
+}
+
+main {
+
+    width: 70%;
+    margin: auto;
+}
+
+section{
+
+    display: flex;
+    justify-content: center;
+    margin: 10em auto 10em auto;
+    border: 1px red solid;
+    
+}
+
+.perfil .foto-perfil {
+
+    width: 35%;
+    height: 35%;
+}
+
+.texto {
+
+    margin-left: 5em;
+    width: 30em;
+    
+}
+
+.texto h1, .livro h1 {
+
+    font-size: 3em;
+    font-family: Bebas kai;
+}
+
+.texto p {
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family:Zilla Slab;
+}
+
+.livro {
+    display: flex;
+    flex-direction: column;
+    margin: 10em auto;
+    border: 1px red solid;
+
+}
+
+.livro img {
+
+    width: 25em;
+    height: 100%;
+    display:inline-block;
+}
+
+.livrodesc {
+
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.livro p {
+
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family:Zilla Slab;
+    text-align: left;
+
+}
