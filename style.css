@@ -200,20 +200,18 @@ section{
     display: flex;
     justify-content: center;
     margin: 10em auto 10em auto;
-    
 }
 
 .perfil .foto-perfil {
 
-    width: 35%;
-    height: 35%;
+   width: 28em;
+   height: 40em;
 }
 
 .texto {
 
     margin-left: 5em;
     width: 30em;
-    
 }
 
 .texto h1, .livro h1 {
@@ -236,8 +234,6 @@ section{
     justify-content: center;
     margin: 10em auto;
     position: relative;
-
-
 }
 
 .livro::before {
@@ -248,13 +244,18 @@ section{
     background-color: rgb(218, 218, 218);
     position: absolute;
     left: -2em;
-    
-
 }
 
-.livro img {
+.mockup-livro1{
 
     width: 25em;
+    height: 100%;
+    display:inline-block;
+}
+
+.mockup-livro2 {
+
+    width: 20em;
     height: 100%;
     display:inline-block;
 }
@@ -272,8 +273,6 @@ section{
     width: auto;
     line-height: 1.5em;
     font-family:Zilla Slab;
-    
-
 }
 
 button{
@@ -299,12 +298,13 @@ button:hover {
 footer {
 
     height: 30vh;
-    background-color: black;
+    background-image: url(imagens/bgfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     display: flex;
     justify-content: center;
     align-items: center;
-
-  
 }
 
 
@@ -346,7 +346,6 @@ footer {
     top: 70em;
     left: -5em;
     z-index: -1;
-
  }
 
  .mancha3{
@@ -355,7 +354,6 @@ footer {
     position: absolute;
     top: 170em;
     left: -5em;
-
  }
 
  .mancha4{
@@ -364,7 +362,6 @@ footer {
     position: absolute;
     top: 230em;
     left: 50%;
-
  }
 
  .mancha5{
@@ -373,8 +370,8 @@ footer {
     position: absolute;
     top: 300em;
     right: 17em;
-
  }
+ 
 
 @media (max-width: 1200px) {
 
@@ -392,6 +389,25 @@ footer {
     main {
 
         width: 90%;
+    }
+
+    .perfil .foto-perfil {
+
+        transform: translateY(5em);
+        width: 18em;
+        height: 25em;
+     }
+
+    .texto {
+
+        margin-left: 1em;
+    }
+
+    .texto p {
+
+        font-size: 1.2em;
+        line-height: 1.5em;
+        font-family:Zilla Slab;
     }
 
 
@@ -454,6 +470,21 @@ footer {
         margin-top: 1em;
     }
 
+    section{
+
+        flex-direction: column;
+        
+    }
+
+    .perfil .foto-perfil {
+
+        transform: translateY(2em);
+        width: 18em;
+        height: 25em;
+        align-self: center;
+     }
+     
+
     main {
 
         width: 100%;
@@ -475,6 +506,17 @@ footer {
         'img-5 img-5 img-6 img-6'
         'img-7 img-7 img-8 img-8';
 
+    }
+
+    .mockup-livro1{
+
+        width: 20em;
+    }
+    
+    .mockup-livro2 {
+    
+        width: 15em;
+    
     }
 
 
