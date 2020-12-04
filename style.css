@@ -1,11 +1,11 @@
  @font-face {
-    font-family:BebasKai;
-    src: url(Fonts/BebasKai.ttf);
+    font-family: BebasKai;
+    src: url(fonts/BebasKai.ttf);
   }
 
   @font-face {
     font-family:ZillaSlab;
-    src: url(Fonts/ZillaSlab.ttf);
+    src: url(fonts/ZillaSlab.ttf);
   }
   
 body {
@@ -281,7 +281,7 @@ section{
     font-size: 1.5em;
     width: auto;
     line-height: 1.5em;
-    font-family:ZillaSlab;
+    font-family: ZillaSlab;
 }
 
 button{
@@ -377,7 +377,7 @@ footer {
 
     width: 15em; 
     position: absolute;
-    top: 300em;
+    top: 330em;
     right: 17em;
  }
 
