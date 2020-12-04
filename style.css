@@ -1,4 +1,13 @@
+@font-face {
+    font-family: BebasKai;
+    src: url(Fonts/BebasKai.ttf);
+  }
 
+  @font-face {
+    font-family: ZillaSlab;
+    src: url(Fonts/ZillaSlab.ttf);
+  }
+  
 body {
 
     box-sizing: border-box;
@@ -49,7 +58,7 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-family:Zilla Slab;
+    font-family:ZillaSlab;
     padding:0;
 
 }
@@ -217,14 +226,14 @@ section{
 .texto h1, .livro h1 {
 
     font-size: 5em;
-    font-family: Bebas kai;
+    font-family: BebasKai;
 }
 
 .texto p {
 
     font-size: 1.5em;
     line-height: 1.5em;
-    font-family:Zilla Slab;
+    font-family:ZillaSlab;
 }
 
 .livro {
@@ -272,7 +281,7 @@ section{
     font-size: 1.5em;
     width: auto;
     line-height: 1.5em;
-    font-family:Zilla Slab;
+    font-family:ZillaSlab;
 }
 
 button{
@@ -285,7 +294,7 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 2.5em;
-  font-family: Bebas kai;
+  font-family: BebasKai;
   cursor: pointer;
 
 }
@@ -371,7 +380,7 @@ footer {
     top: 300em;
     right: 17em;
  }
- 
+
 
 @media (max-width: 1200px) {
 
@@ -407,7 +416,7 @@ footer {
 
         font-size: 1.2em;
         line-height: 1.5em;
-        font-family:Zilla Slab;
+        font-family:ZillaSlab;
     }
 
 
