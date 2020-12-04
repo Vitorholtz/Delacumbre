@@ -277,7 +277,7 @@ section{
 
 .livro p {
 
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: auto;
     line-height: 1.5em;
     font-family: ZillaSlab;
@@ -376,7 +376,7 @@ footer {
 
     width: 15em; 
     position: absolute;
-    top: 330em;
+    top: 320em;
     right: 17em;
  }
 
@@ -529,7 +529,7 @@ footer {
 
     .mockup-livro1{
 
-        width: 20em;
+        width: 15em;
     }
     
     .mockup-livro2 {
