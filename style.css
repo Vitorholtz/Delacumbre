@@ -220,7 +220,8 @@ section{
 .texto {
 
     margin-left: 5em;
-    width: 30em;
+    width: 90%;
+    border: 1px red solid;
 }
 
 .texto h1, .livro h1 {
@@ -230,7 +231,6 @@ section{
 }
 
 .texto p {
-
     font-size: 1.5em;
     line-height: 1.5em;
     font-family:ZillaSlab;
@@ -425,6 +425,12 @@ footer {
 
 @media (max-width: 800px) {
 
+    .perfil .foto-perfil {
+
+        transform: translateY(8em);
+ 
+     }
+
     main {
 
         width: 90%;
@@ -483,6 +489,11 @@ footer {
 
         flex-direction: column;
         
+    }
+
+    .texto {
+
+        margin: auto;
     }
 
     .perfil .foto-perfil {
