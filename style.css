@@ -277,7 +277,7 @@ section{
 
 .livro p {
 
-    font-size: 1.2em;
+    font-size: 1.5em;
     width: auto;
     line-height: 1.5em;
     font-family: ZillaSlab;
@@ -416,6 +416,10 @@ footer {
         font-size: 1.2em;
         line-height: 1.5em;
         font-family:ZillaSlab;
+    }
+
+    .livro p {
+        font-size: 1.2em;
     }
 
 
