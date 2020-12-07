@@ -86,7 +86,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 1.5rem;
+    grid-gap: 1rem;
     grid-template-areas: 
     'img-1 img-2 img-3 img-3'
     'img-1 img-4 img-5 img-6'
@@ -109,19 +109,6 @@ header {
 
 }
 
-.image-gallery a ion-icon{
-
-    color: rgba(255,255,255, .6); 
-    font-size: 3rem;
-    position: relative;
-    z-index:100;
-    padding: 1rem 3rem;
-    border:2px solid rgb(255,255,255, 0.6);
-    border-radius: .4rem;
-    /* opacity: 0; */
-    transition: opacity .5s;
-
-}
 
 .image-gallery a::before {
 
